@@ -1,25 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Additional Tags </title>
 </head>
+
 <body>
   <!-- !DETAILS and SUMMARY -->
-   <details>
+  <details>
     <summary>HTML</summary>
     Hyper Text Markup Language
-   </details>
-   <details>
+  </details>
+  <details>
     <summary>CSS</summary>
     Cascading Style Sheets
-   </details>
-   <!-- !HR (HORIZONTAL RULE) -->
-   <hr>
-   <!-- !PROGRESS -->
-    <progress max="100" value="60"></progress>
-   <!-- !METER -->
-    <meter value="50" min="0" max="100"></meter>
+  </details>
+  <!-- !HR (HORIZONTAL RULE) -->
+  <hr>
+  <!-- !PROGRESS -->
+  <progress max="100" value="60"></progress>
+  <!-- !METER -->
+  <meter value="50" min="0" max="100"></meter>
+  <!-- !DATALIST -->
+  <label for="movies">Movies:</label>
+  <input type="text" id="movies" placeholder="Search Movies" list="movie">
+  <datalist id="movie">
+    <option>Aarya</option>
+    <option>Aarya 2</option>
+    <option>Animal</option>
+    <option>Bahubali</option>
+    <option>Bahubali 2</option>
+    <option>Billa</option>
+    <option>Chandramukhi</option>
+    <option>Chatrapathi</option>
+    <option>Chaava</option>
+  </datalist>
+  <!-- !FIGURE and FIGCAPTION -->
+  <figure>
+    <img
+      src="https://www.k4fashion.com/wp-content/uploads/2023/01/Anushka-Shetty-Look-Beautiful-In-Traditional-Red-Dhoti-Saree-Outfit.jpg"
+      alt="anushka" height="500">
+    <figcaption>Anushka Shetty</figcaption>
+  </figure>
+  <figure>
+    <img src="https://m.media-amazon.com/images/I/71pQ3habcgL._AC_UF1000,1000_QL80_.jpg" alt="ktm" height="500">
+    <figcaption>KTM Duke 250</figcaption>
+  </figure>
+  <!-- !OPTGROUP -->
+  <label for="food">Food Items:</label>
+  <select id="food">
+    <optgroup label="veg items">
+      <option>Paneer Biryani</option>
+      <option>Mushroom 65</option>
+      <option>Chole Bature</option>
+    </optgroup>
+    <optgroup label="non-veg items">
+      <option>Mutton Biryani</option>
+      <option>Chicken Biryani</option>
+      <option>Fish Biryani</option>
+    </optgroup>
+  </select>
+
 </body>
+
 </html>
